@@ -5,7 +5,7 @@ go 1.24.0
 require (
 	github.com/grokify/mcpruntime v0.2.0
 	github.com/grokify/omnistorage v0.1.0
-	github.com/grokify/omnistorage-github v0.0.0-20260110224236-25a82ce97c21
+	github.com/grokify/omnistorage-github v0.1.0
 	github.com/modelcontextprotocol/go-sdk v1.2.0
 	gopkg.in/yaml.v3 v3.0.1
 )
