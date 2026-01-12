@@ -1,0 +1,318 @@
+{
+  "ir_version": "1.0",
+  "project": "ChatHub",
+  "repository": "https://github.com/grokify/chathub",
+  "generated_at": "2026-01-11T00:00:00Z",
+
+  "legend": {
+    "completed": {"emoji": "✅", "description": "Completed"},
+    "in_progress": {"emoji": "🚧", "description": "In Progress"},
+    "planned": {"emoji": "📋", "description": "Planned"},
+    "future": {"emoji": "💡", "description": "Under Consideration"}
+  },
+
+  "phases": [
+    {
+      "id": "phase1",
+      "name": "Phase 1: Foundation",
+      "status": "completed",
+      "order": 1,
+      "description": "Project setup, configuration, and frontmatter support"
+    },
+    {
+      "id": "phase2",
+      "name": "Phase 2: Core Tools",
+      "status": "completed",
+      "order": 2,
+      "description": "Storage layer and CRUD operations"
+    },
+    {
+      "id": "phase3",
+      "name": "Phase 3: MCP Server",
+      "status": "completed",
+      "order": 3,
+      "description": "Tool registration and server entry point"
+    },
+    {
+      "id": "phase4",
+      "name": "Phase 4: Search & Polish",
+      "status": "completed",
+      "order": 4,
+      "description": "Search functionality and documentation"
+    },
+    {
+      "id": "phase5",
+      "name": "Phase 5: Future Enhancements",
+      "status": "planned",
+      "order": 5,
+      "description": "Additional backends and advanced features"
+    }
+  ],
+
+  "items": [
+    {
+      "id": "project-setup",
+      "title": "Project Setup",
+      "description": "Initialize Go module, create project structure, add dependencies",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase1",
+      "type": "Added"
+    },
+    {
+      "id": "configuration",
+      "title": "Configuration",
+      "description": "Environment variable loading, validation, backend type support",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase1",
+      "type": "Added"
+    },
+    {
+      "id": "frontmatter",
+      "title": "Frontmatter",
+      "description": "Hugo-compatible YAML frontmatter parsing and generation",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase1",
+      "type": "Added"
+    },
+    {
+      "id": "storage-layer",
+      "title": "Storage Layer",
+      "description": "OmniStorage backend wrapper with Save, Read, List, Delete operations",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase2",
+      "type": "Added"
+    },
+    {
+      "id": "save-conversation",
+      "title": "save_conversation Tool",
+      "description": "Save conversations with frontmatter generation and path creation",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase2",
+      "type": "Added"
+    },
+    {
+      "id": "read-conversation",
+      "title": "read_conversation Tool",
+      "description": "Read conversations and parse frontmatter",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase2",
+      "type": "Added"
+    },
+    {
+      "id": "list-conversations",
+      "title": "list_conversations Tool",
+      "description": "List conversations with source filtering and pagination",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase2",
+      "type": "Added"
+    },
+    {
+      "id": "delete-conversation",
+      "title": "delete_conversation Tool",
+      "description": "Delete conversations from storage",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase2",
+      "type": "Added"
+    },
+    {
+      "id": "append-conversation",
+      "title": "append_conversation Tool",
+      "description": "Append content to existing conversations",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase2",
+      "type": "Added"
+    },
+    {
+      "id": "tool-registration",
+      "title": "Tool Registration",
+      "description": "RegisterAll function with mcpruntime integration",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase3",
+      "type": "Added"
+    },
+    {
+      "id": "main-entry",
+      "title": "Main Entry Point",
+      "description": "CLI with stdio and HTTP transport support",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase3",
+      "type": "Added"
+    },
+    {
+      "id": "search-conversations",
+      "title": "search_conversations Tool",
+      "description": "Full-text search across conversations",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase4",
+      "type": "Added"
+    },
+    {
+      "id": "documentation",
+      "title": "Documentation",
+      "description": "README, PRD, TRD, usage examples, MCP client configuration",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase4",
+      "type": "Added"
+    },
+    {
+      "id": "release-prep",
+      "title": "Release Preparation",
+      "description": "CHANGELOG, release notes, version tagging",
+      "status": "completed",
+      "version": "0.1.0",
+      "phase": "phase4",
+      "type": "Added"
+    },
+    {
+      "id": "tag-filtering",
+      "title": "Tag-based Filtering",
+      "description": "Filter list operations by tags",
+      "status": "planned",
+      "target_version": "0.2.0",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "s3-backend",
+      "title": "S3 Storage Backend",
+      "description": "Support for AWS S3, Cloudflare R2, MinIO",
+      "status": "planned",
+      "target_version": "0.2.0",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "dropbox-backend",
+      "title": "Dropbox Storage Backend",
+      "description": "Personal cloud storage via Dropbox API",
+      "status": "planned",
+      "target_version": "0.2.0",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "file-backend",
+      "title": "Local Filesystem Backend",
+      "description": "Local file storage for development and offline use",
+      "status": "planned",
+      "target_version": "0.2.0",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "google-drive",
+      "title": "Google Drive Backend",
+      "description": "Google Drive storage integration",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "onedrive",
+      "title": "OneDrive Backend",
+      "description": "Microsoft OneDrive storage integration",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "conversation-threading",
+      "title": "Conversation Threading",
+      "description": "Link related conversations together",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "export-formats",
+      "title": "Export to JSON/PDF",
+      "description": "Export conversations to different formats",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "backend-sync",
+      "title": "Backend Sync",
+      "description": "Sync conversations between storage backends",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "web-ui",
+      "title": "Web UI",
+      "description": "Browser-based interface for browsing conversations",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Added"
+    },
+    {
+      "id": "frontmatter-caching",
+      "title": "Frontmatter Caching",
+      "description": "Cache frontmatter for faster list operations",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Changed"
+    },
+    {
+      "id": "parallel-reads",
+      "title": "Parallel File Reads",
+      "description": "Concurrent file reading for improved performance",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Changed"
+    },
+    {
+      "id": "search-indexing",
+      "title": "Search Indexing",
+      "description": "Full-text search index for faster queries",
+      "status": "future",
+      "phase": "phase5",
+      "type": "Changed"
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "order": 1,
+      "content": [
+        {"type": "text", "value": "ChatHub is an MCP server for cross-platform AI conversation sharing. This roadmap tracks implementation progress and planned features."}
+      ]
+    },
+    {
+      "id": "success-criteria",
+      "title": "Success Criteria for v0.1.0",
+      "order": 50,
+      "content": [
+        {"type": "list", "items": [
+          "All 6 MCP tools implemented and tested",
+          "GitHub backend working end-to-end",
+          "Hugo-compatible frontmatter",
+          "README with setup instructions",
+          "Works with Claude Code MCP configuration"
+        ]}
+      ]
+    }
+  ],
+
+  "version_history": [
+    {"version": "0.1.0", "date": "2026-01-11", "status": "completed", "summary": "Initial release with 6 MCP tools and GitHub backend"},
+    {"version": "0.2.0", "date": null, "status": "planned", "summary": "Additional storage backends and tag filtering"}
+  ]
+}

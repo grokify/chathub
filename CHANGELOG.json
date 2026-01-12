@@ -1,0 +1,32 @@
+{
+  "ir_version": "1.0",
+  "project": "chathub",
+  "repository": "https://github.com/grokify/chathub",
+  "versioning": "semver",
+  "commit_convention": "conventional",
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-01-11",
+      "highlights": [
+        {"description": "Cross-platform AI conversation sharing between ChatGPT, Claude Code, and other MCP clients"},
+        {"description": "Hugo-compatible storage for publishing conversations to static sites"},
+        {"description": "GitHub-based version-controlled conversation storage with automatic organization"}
+      ],
+      "added": [
+        {"description": "MCP server with stdio and HTTP transport support", "commit": ""},
+        {"description": "`save_conversation` tool - Save AI conversations with Hugo-compatible frontmatter", "commit": ""},
+        {"description": "`read_conversation` tool - Read conversations from storage", "commit": ""},
+        {"description": "`list_conversations` tool - List conversations with optional source filtering", "commit": ""},
+        {"description": "`search_conversations` tool - Search conversations by content", "commit": ""},
+        {"description": "`delete_conversation` tool - Delete conversations from storage", "commit": ""},
+        {"description": "`append_conversation` tool - Append content to existing conversations", "commit": ""},
+        {"description": "Hugo-compatible YAML frontmatter with standard and extension fields", "commit": ""},
+        {"description": "GitHub storage backend via omnistorage-github", "commit": ""},
+        {"description": "File organization by source platform (chatgpt/, claude/, gemini/, etc.)", "commit": ""},
+        {"description": "Automatic slug generation and date-based file naming", "commit": ""},
+        {"description": "Cross-platform conversation sharing between ChatGPT Desktop, Claude Code, and other MCP clients", "commit": ""}
+      ]
+    }
+  ]
+}
