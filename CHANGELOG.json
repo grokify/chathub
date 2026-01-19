@@ -6,6 +6,17 @@
   "commit_convention": "conventional",
   "releases": [
     {
+      "version": "v0.1.1",
+      "date": "2026-01-18",
+      "changed": [
+        {"description": "Migrate from `github.com/grokify/mcpruntime` to `github.com/agentplexus/mcpkit/runtime` v0.3.1", "commit": "f191c3a"}
+      ],
+      "fixed": [
+        {"description": "Pin log15/v3 to v3.0.0-testing.5 for ngrok compatibility", "commit": "f191c3a"},
+        {"description": "Fix TRD.md formatting", "commit": "970d9e3"}
+      ]
+    },
+    {
       "version": "v0.1.0",
       "date": "2026-01-11",
       "highlights": [

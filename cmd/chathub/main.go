@@ -11,16 +11,16 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/agentplexus/mcpkit/runtime"
 	"github.com/grokify/chathub/internal/config"
 	"github.com/grokify/chathub/internal/storage"
 	"github.com/grokify/chathub/internal/tools"
-	"github.com/grokify/mcpruntime"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 const (
 	appName    = "chathub"
-	appVersion = "0.1.0"
+	appVersion = "0.1.1"
 )
 
 func main() {
@@ -44,7 +44,7 @@ func run() error {
 	defer store.Close()
 
 	// Create MCP runtime
-	rt := mcpruntime.New(&mcp.Implementation{
+	rt := runtime.New(&mcp.Implementation{
 		Name:    appName,
 		Version: appVersion,
 	}, nil)
@@ -71,9 +71,9 @@ func run() error {
 		return rt.ServeStdio(ctx)
 
 	case config.TransportHTTP:
-		opts := &mcpruntime.HTTPServerOptions{
+		opts := &runtime.HTTPServerOptions{
 			Addr: fmt.Sprintf(":%d", cfg.Port),
-			OnReady: func(result *mcpruntime.HTTPServerResult) {
+			OnReady: func(result *runtime.HTTPServerResult) {
 				if result.PublicURL != "" {
 					log.Printf("MCP server available at: %s", result.PublicURL)
 				} else {
@@ -105,7 +105,7 @@ func run() error {
 		}
 
 		if cfg.NgrokEnabled {
-			opts.Ngrok = &mcpruntime.NgrokOptions{
+			opts.Ngrok = &runtime.NgrokOptions{
 				Authtoken: cfg.NgrokAuthtoken,
 				Domain:    cfg.NgrokDomain,
 			}
@@ -119,7 +119,7 @@ func run() error {
 				password = generateRandomPassword()
 				log.Printf("Generated OAuth2 login password: %s", password)
 			}
-			opts.OAuth2 = &mcpruntime.OAuth2Options{
+			opts.OAuth2 = &runtime.OAuth2Options{
 				Users: map[string]string{
 					cfg.OAuth2Username: password,
 				},
@@ -128,7 +128,7 @@ func run() error {
 				Debug:        true, // Enable OAuth debug logging
 			}
 		} else if cfg.OAuthEnabled {
-			opts.OAuth = &mcpruntime.OAuthOptions{
+			opts.OAuth = &runtime.OAuthOptions{
 				ClientID:     cfg.OAuthClientID,
 				ClientSecret: cfg.OAuthClientSecret,
 			}

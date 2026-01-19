@@ -79,7 +79,7 @@ Configure your MCP client (e.g., Claude Code):
 
 ## Dependencies
 
-- [mcpruntime](https://github.com/grokify/mcpruntime) v0.1.0 - Library-first MCP runtime
+- [mcpkit](https://github.com/agentplexus/mcpkit) v0.3.1 - Library-first MCP runtime
 - [omnistorage](https://github.com/grokify/omnistorage) v0.1.0 - Multi-backend storage abstraction
 - [omnistorage-github](https://github.com/grokify/omnistorage-github) v0.1.0 - GitHub storage backend
 - [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) v1.2.0

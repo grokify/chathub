@@ -84,7 +84,7 @@ chathub/
 
 ```go
 require (
-    github.com/grokify/mcpruntime v0.1.0
+    github.com/agentplexus/mcpkit v0.3.1
     github.com/grokify/omnistorage v0.1.0
     github.com/grokify/omnistorage-github v0.1.0
     github.com/modelcontextprotocol/go-sdk v1.2.0
