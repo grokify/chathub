@@ -1,6 +1,6 @@
 module github.com/grokify/chathub
 
-go 1.25.5
+go 1.24.11
 
 require (
 	github.com/agentplexus/mcpkit v0.3.1
