@@ -117,7 +117,7 @@ func run() error {
 			if password == "" {
 				// Auto-generate password if not set
 				password = generateRandomPassword()
-				log.Printf("Generated OAuth2 login password: %s", password)
+				log.Printf("Generated OAuth2 login password for user %s", cfg.OAuth2Username)
 			}
 			opts.OAuth2 = &runtime.OAuth2Options{
 				Users: map[string]string{
