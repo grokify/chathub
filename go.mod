@@ -11,14 +11,13 @@ require (
 )
 
 require (
-	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/google/go-github/v81 v81.0.0 // indirect
+	github.com/google/go-github/v82 v82.0.0 // indirect
 	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/google/jsonschema-go v0.4.2 // indirect
-	github.com/grokify/gogithub v0.6.0 // indirect
-	github.com/grokify/mogo v0.72.6 // indirect
-	github.com/inconshreveable/log15 v3.0.0-testing.5+incompatible // indirect
-	github.com/inconshreveable/log15/v3 v3.0.0-testing.5 // indirect
+	github.com/grokify/gogithub v0.9.0 // indirect
+	github.com/grokify/mogo v0.73.2 // indirect
+	github.com/inconshreveable/log15/v3 v3.1.0 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -26,11 +25,11 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.ngrok.com/muxado/v2 v2.0.1 // indirect
 	golang.ngrok.com/ngrok v1.13.0 // indirect
-	golang.org/x/net v0.49.0 // indirect
-	golang.org/x/oauth2 v0.34.0 // indirect
+	golang.org/x/net v0.50.0 // indirect
+	golang.org/x/oauth2 v0.35.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/term v0.39.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/term v0.40.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
