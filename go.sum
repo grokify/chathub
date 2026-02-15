@@ -13,10 +13,10 @@ github.com/grokify/gogithub v0.9.1 h1:52jxAZhks4oTGeQA/bPY+Fdxg6FRJMLmWVULXuFjH+
 github.com/grokify/gogithub v0.9.1/go.mod h1:YrOcn7jxU0gTL2TLGe49A2nhLjIoNswkHkh2F3vAsKI=
 github.com/grokify/mogo v0.73.2 h1:mbMDtyir64MNhm5VRUkbFdPV1Tpf24cSJ9Mu44vhNzU=
 github.com/grokify/mogo v0.73.2/go.mod h1:Tnis3WsQZYIAIW3D3M1nSGj+ErMRL8glBkzq3opQnRk=
-github.com/grokify/omnistorage v0.2.0 h1:yc0WnHSGHb9xPwpWOluuHVRskPVEVyKv4pN830h/ogY=
-github.com/grokify/omnistorage v0.2.0/go.mod h1:jTzlosbLzOKnjuHax5lxTsa9/7w9iy00fJs6iNG63jI=
-github.com/grokify/omnistorage-github v0.1.2 h1:p3h5TnfkX0FTw8wnUDBZGpgRqA8MKn1aSDH1GamWTts=
-github.com/grokify/omnistorage-github v0.1.2/go.mod h1:DyRtKQllyr1eW7pf51pJcq74wyB///QEmNmZmhjzBtA=
+github.com/grokify/omnistorage v0.2.1 h1:ZIEiaMHPYZa2eWWO184zA+OvKscwG9aocehl09FLBTA=
+github.com/grokify/omnistorage v0.2.1/go.mod h1:Q/Q8cqvmGa79IPEKIcYPaibFHM6S7NMZ7nRU/jti0h8=
+github.com/grokify/omnistorage-github v0.1.3 h1:0xL+T5lqRxR88fX39qRJKvv1JHAWOITuNJL1gRSYduo=
+github.com/grokify/omnistorage-github v0.1.3/go.mod h1:vhyAxOTtewiXXUN3tTtezDinuFOoYIyRp69Zs9+OSQY=
 github.com/inconshreveable/log15 v3.0.0-testing.5+incompatible h1:VryeOTiaZfAzwx8xBcID1KlJCeoWSIpsNbSk+/D2LNk=
 github.com/inconshreveable/log15 v3.0.0-testing.5+incompatible/go.mod h1:cOaXtrgN4ScfRrD9Bre7U1thNq5RtJ8ZoP4iXVGRj6o=
 github.com/inconshreveable/log15/v3 v3.0.0-testing.5 h1:h4e0f3kjgg+RJBlKOabrohjHe47D3bbAB9BgMrc3DYA=

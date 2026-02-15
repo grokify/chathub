@@ -4,8 +4,8 @@ go 1.25.5
 
 require (
 	github.com/agentplexus/mcpkit v0.3.2
-	github.com/grokify/omnistorage v0.2.0
-	github.com/grokify/omnistorage-github v0.1.2
+	github.com/grokify/omnistorage v0.2.1
+	github.com/grokify/omnistorage-github v0.1.3
 	github.com/modelcontextprotocol/go-sdk v1.3.0
 	gopkg.in/yaml.v3 v3.0.1
 )
