@@ -6,7 +6,7 @@ require (
 	github.com/agentplexus/mcpkit v0.3.2
 	github.com/grokify/omnistorage v0.2.1
 	github.com/grokify/omnistorage-github v0.1.3
-	github.com/modelcontextprotocol/go-sdk v1.3.0
+	github.com/modelcontextprotocol/go-sdk v1.3.1
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -22,6 +22,8 @@ require (
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/segmentio/asm v1.1.3 // indirect
+	github.com/segmentio/encoding v0.5.3 // indirect
 	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.ngrok.com/muxado/v2 v2.0.1 // indirect
