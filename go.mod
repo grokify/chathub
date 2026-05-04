@@ -3,8 +3,8 @@ module github.com/grokify/chathub
 go 1.26.0
 
 require (
-	github.com/agentplexus/mcpkit v0.3.2
 	github.com/modelcontextprotocol/go-sdk v1.6.0
+	github.com/plexusone/omniskill v0.7.0
 	github.com/plexusone/omnistorage v0.2.0
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -58,6 +58,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.22.0 // indirect
 	github.com/grokify/gogithub v0.12.1 // indirect
 	github.com/grokify/mogo v0.74.4 // indirect
+	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/inconshreveable/log15 v3.0.0-testing.5+incompatible // indirect
 	github.com/inconshreveable/log15/v3 v3.1.0 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
@@ -87,6 +88,7 @@ require (
 	golang.ngrok.com/muxado/v2 v2.0.1 // indirect
 	golang.ngrok.com/ngrok v1.13.0 // indirect
 	golang.org/x/crypto v0.50.0 // indirect
+	golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f // indirect
 	golang.org/x/net v0.53.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
