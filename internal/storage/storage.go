@@ -8,12 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/grokify/omnistorage"
-
-	// Register backends
-	_ "github.com/grokify/omnistorage-github/backend/github"
-	_ "github.com/grokify/omnistorage/backend/file"
-	_ "github.com/grokify/omnistorage/backend/memory"
+	"github.com/plexusone/omnistorage" // All 9 backends auto-registered
 )
 
 // Storage wraps an omnistorage.Backend with ChatHub-specific operations.
