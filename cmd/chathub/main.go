@@ -11,11 +11,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/agentplexus/mcpkit/runtime"
 	"github.com/grokify/chathub/internal/config"
 	"github.com/grokify/chathub/internal/storage"
 	"github.com/grokify/chathub/internal/tools"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
+	runtime "github.com/plexusone/omniskill/mcp/server"
 )
 
 const (

@@ -3,8 +3,8 @@ package tools
 import (
 	"context"
 
-	"github.com/agentplexus/mcpkit/runtime"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
+	runtime "github.com/plexusone/omniskill/mcp/server"
 
 	"github.com/grokify/chathub/internal/storage"
 )
