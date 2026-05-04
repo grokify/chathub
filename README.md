@@ -265,8 +265,7 @@ Access the MCP endpoint at `http://localhost:8080/mcp`.
 ## Dependencies
 
 - [mcpkit](https://github.com/agentplexus/mcpkit) - Library-first MCP runtime
-- [omnistorage](https://github.com/grokify/omnistorage) - Multi-backend storage abstraction
-- [omnistorage-github](https://github.com/grokify/omnistorage-github) - GitHub storage backend
+- [omnistorage](https://github.com/plexusone/omnistorage) - Multi-backend storage abstraction
 - [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) - Official MCP SDK
 
 ## Guides

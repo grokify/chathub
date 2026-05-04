@@ -85,8 +85,7 @@ chathub/
 ```go
 require (
     github.com/agentplexus/mcpkit v0.3.1
-    github.com/grokify/omnistorage v0.1.0
-    github.com/grokify/omnistorage-github v0.1.0
+    github.com/plexusone/omnistorage v0.1.1
     github.com/modelcontextprotocol/go-sdk v1.2.0
     gopkg.in/yaml.v3 v3.0.1
 )
@@ -317,12 +316,11 @@ func GeneratePath(folder, source, title string, date time.Time) string {
 
 ```go
 import (
-    "github.com/grokify/omnistorage"
-    _ "github.com/grokify/omnistorage-github/backend/github"
-    _ "github.com/grokify/omnistorage/backend/s3"
-    _ "github.com/grokify/omnistorage/backend/dropbox"
-    _ "github.com/grokify/omnistorage/backend/file"
-    _ "github.com/grokify/omnistorage/backend/memory"
+    "github.com/plexusone/omnistorage"
+
+    // Register backends (cloud backends registered via omnistorage import)
+    _ "github.com/plexusone/omnistorage-core/object/backend/file"
+    _ "github.com/plexusone/omnistorage-core/object/backend/memory"
 )
 
 func NewBackend(cfg *Config) (omnistorage.Backend, error) {

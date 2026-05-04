@@ -80,8 +80,7 @@ Configure your MCP client (e.g., Claude Code):
 ## Dependencies
 
 - [mcpkit](https://github.com/agentplexus/mcpkit) v0.3.1 - Library-first MCP runtime
-- [omnistorage](https://github.com/grokify/omnistorage) v0.1.0 - Multi-backend storage abstraction
-- [omnistorage-github](https://github.com/grokify/omnistorage-github) v0.1.0 - GitHub storage backend
+- [omnistorage](https://github.com/plexusone/omnistorage) - Multi-backend storage abstraction
 - [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) v1.2.0
 
 ## Known Limitations
