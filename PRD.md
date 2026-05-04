@@ -249,5 +249,5 @@ my-hugo-site/
 
 - [Model Context Protocol Specification](https://modelcontextprotocol.io/)
 - [Hugo Front Matter](https://gohugo.io/content-management/front-matter/)
-- [mcpkit](https://github.com/agentplexus/mcpkit) - Library-first MCP runtime
+- [omniskill](https://github.com/plexusone/omniskill) - Library-first MCP runtime
 - [omnistorage](https://github.com/plexusone/omnistorage) - Multi-backend storage abstraction

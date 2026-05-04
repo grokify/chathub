@@ -84,9 +84,9 @@ chathub/
 
 ```go
 require (
-    github.com/agentplexus/mcpkit v0.3.1
-    github.com/plexusone/omnistorage v0.1.1
-    github.com/modelcontextprotocol/go-sdk v1.2.0
+    github.com/plexusone/omniskill v0.7.0
+    github.com/plexusone/omnistorage v0.2.0
+    github.com/modelcontextprotocol/go-sdk v1.6.0
     gopkg.in/yaml.v3 v3.0.1
 )
 ```
