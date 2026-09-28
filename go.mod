@@ -4,7 +4,7 @@ go 1.26.4
 
 require (
 	github.com/modelcontextprotocol/go-sdk v1.7.0
-	github.com/plexusone/omniskill v0.11.0
+	github.com/plexusone/omniskill v0.12.0
 	github.com/plexusone/omnistorage v0.3.0
 	gopkg.in/yaml.v3 v3.0.1
 )
